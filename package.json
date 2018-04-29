@@ -1,0 +1,24 @@
+{
+  "name": "LoginAuth",
+  "version": "1.0.0",
+  "description": "MEAN Stack Authentication App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "nodemon": "^1.17.3",
+    "passport": "*",
+    "passport-jwt": "*"
+  }
+}
